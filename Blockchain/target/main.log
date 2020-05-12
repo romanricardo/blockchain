@@ -1,0 +1,518 @@
+22:13:15.178 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:13:15.793 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/101?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+22:13:16.879 response time in milliseconds: 1081,78
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b7b323ef2d2c8-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 01:13:16 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d2ef42606b532dae744237f6da2cde6161587517995; expires=Fri, 22-May-20 01:13:15 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 50
+1 < cf-request-id: 02410b535f0000d2c812098200000001
+{
+  "hash": "00000000b69bd8e4dc60580117617a466d5c76ada85fb7b87e9baea01f9d9984",
+  "height": 101,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 215,
+  "ver": 1,
+  "time": "2009-01-11T08:15:41Z",
+  "received_time": "2009-01-11T08:15:41Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 4136106517,
+  "n_tx": 1,
+  "prev_block": "000000007bc154e0fa7ea32218a72fe2c1bb9f86cf8c9ebf9a715ed27fdb229a",
+  "mrkl_root": "cfe6b74cab677b52d850ac659d54266a3a4d7bb48270234d2fec836881d0a5f7",
+  "txids": [],
+  "depth": 626992,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/000000007bc154e0fa7ea32218a72fe2c1bb9f86cf8c9ebf9a715ed27fdb229a",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
+22:13:16.993 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:13:17.001 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/102?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+22:13:17.729 response time in milliseconds: 726,66
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b7b388fe7f7de-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 01:13:17 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d56163bfde95bee2f8cf02ec320d625f91587517996; expires=Fri, 22-May-20 01:13:16 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 45
+1 < cf-request-id: 02410b57560000f7debb8d8200000001
+{
+  "hash": "000000001604181f13f19fd3cc89366ec95ce1dd64b776784ef8855210622f19",
+  "height": 102,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 215,
+  "ver": 1,
+  "time": "2009-01-11T08:31:10Z",
+  "received_time": "2009-01-11T08:31:10Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 1906126361,
+  "n_tx": 1,
+  "prev_block": "00000000b69bd8e4dc60580117617a466d5c76ada85fb7b87e9baea01f9d9984",
+  "mrkl_root": "3b44b5ce02d36db604f0d6b7cc761685484c370a235c54539700b1ad23afefce",
+  "txids": [],
+  "depth": 626991,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/00000000b69bd8e4dc60580117617a466d5c76ada85fb7b87e9baea01f9d9984",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
+22:13:17.756 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:13:17.762 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/103?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+22:13:18.615 response time in milliseconds: 852,97
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b7b3d884d7507-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 01:13:18 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d14e2005c8f9b336fe890716b2accc6e51587517997; expires=Fri, 22-May-20 01:13:17 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 42
+1 < cf-request-id: 02410b5a7200007507f1ab3200000001
+{
+  "hash": "000000002109057cb846ff7d1d96bc77f9f65cb547938efe1961760a8bbb3f75",
+  "height": 103,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 215,
+  "ver": 1,
+  "time": "2009-01-11T08:44:27Z",
+  "received_time": "2009-01-11T08:44:27Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 1334001941,
+  "n_tx": 1,
+  "prev_block": "000000001604181f13f19fd3cc89366ec95ce1dd64b776784ef8855210622f19",
+  "mrkl_root": "88d2a4e04a96b45e3ba04637098a92fd0786daf3fc8ff88314f8e739a9918bf3",
+  "txids": [],
+  "depth": 626990,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/000000001604181f13f19fd3cc89366ec95ce1dd64b776784ef8855210622f19",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
+22:13:18.641 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:13:18.647 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/104?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+22:13:19.550 response time in milliseconds: 900,55
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b7b437debf7e6-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 01:13:19 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dbb9be375f1f3afa8e1e888c0bb3a0aaa1587517998; expires=Fri, 22-May-20 01:13:18 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 44
+1 < cf-request-id: 02410b5e2a0000f7e6e1a36200000001
+{
+  "hash": "00000000fb11ef25014e02b315285a22f80c8f97689d7e36d723317defaabe5b",
+  "height": 104,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 215,
+  "ver": 1,
+  "time": "2009-01-11T08:53:29Z",
+  "received_time": "2009-01-11T08:53:29Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 522348055,
+  "n_tx": 1,
+  "prev_block": "000000002109057cb846ff7d1d96bc77f9f65cb547938efe1961760a8bbb3f75",
+  "mrkl_root": "240074c357b073a794d4dddb19cfb656f2899a89cc2988ab78668efe46d6b74b",
+  "txids": [],
+  "depth": 626989,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/000000002109057cb846ff7d1d96bc77f9f65cb547938efe1961760a8bbb3f75",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
+22:13:19.571 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:13:19.575 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/105?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+22:13:20.334 response time in milliseconds: 758,23
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b7b488da0d7f1-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 01:13:20 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d29a204ecda4450f40e5e963e459ec5f21587517999; expires=Fri, 22-May-20 01:13:19 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 49
+1 < cf-request-id: 02410b61550000d7f1e0ab0200000001
+{
+  "hash": "00000000854d5c01c377e7ff131dbd4b3af44949c6f3126fb66eab4a3fc6b1ae",
+  "height": 105,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 215,
+  "ver": 1,
+  "time": "2009-01-11T09:02:47Z",
+  "received_time": "2009-01-11T09:02:47Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 280347178,
+  "n_tx": 1,
+  "prev_block": "00000000fb11ef25014e02b315285a22f80c8f97689d7e36d723317defaabe5b",
+  "mrkl_root": "5bc9bd461b455db119181c060085bd656430d9d431bbe4539eb0e367e9c77ac8",
+  "txids": [],
+  "depth": 626988,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/00000000fb11ef25014e02b315285a22f80c8f97689d7e36d723317defaabe5b",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
+22:13:20.358 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:13:20.364 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/106?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+22:13:21.266 response time in milliseconds: 900,15
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b7b4decabd2b8-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 01:13:20 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8ace99496859432ba6a6c06a1ddf70c11587518000; expires=Fri, 22-May-20 01:13:20 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 41
+1 < cf-request-id: 02410b64b50000d2b8f30b8200000001
+{
+  "hash": "00000000877c1915ebe7d24bee5b81ecafcf1bac5890283124a3d662a50a7714",
+  "height": 106,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 215,
+  "ver": 1,
+  "time": "2009-01-11T09:19:25Z",
+  "received_time": "2009-01-11T09:19:25Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 2687107072,
+  "n_tx": 1,
+  "prev_block": "00000000854d5c01c377e7ff131dbd4b3af44949c6f3126fb66eab4a3fc6b1ae",
+  "mrkl_root": "18883aec5f3e6cec38520df46530f0c6b1ab35973c386922e1c4580fbb9dee80",
+  "txids": [],
+  "depth": 626987,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/00000000854d5c01c377e7ff131dbd4b3af44949c6f3126fb66eab4a3fc6b1ae",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
+22:13:21.293 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:13:21.301 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/107?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+22:13:22.180 response time in milliseconds: 877,67
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b7b541cac74e7-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 01:13:21 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d6879929517237471e9d745369af85b5f1587518001; expires=Fri, 22-May-20 01:13:21 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 43
+1 < cf-request-id: 02410b688e000074e7218ba200000001
+{
+  "hash": "000000007e16b0176d894bebf52f6ceb5dd8553831e579b50726779633a1f2eb",
+  "height": 107,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 216,
+  "ver": 1,
+  "time": "2009-01-11T09:31:25Z",
+  "received_time": "2009-01-11T09:31:25Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 3211090732,
+  "n_tx": 1,
+  "prev_block": "00000000877c1915ebe7d24bee5b81ecafcf1bac5890283124a3d662a50a7714",
+  "mrkl_root": "97e5c5228b572e1be5e91e0cf04784757a293a5efe2788df42868d5cc12a2382",
+  "txids": [],
+  "depth": 626986,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/00000000877c1915ebe7d24bee5b81ecafcf1bac5890283124a3d662a50a7714",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
+22:13:22.208 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:13:22.212 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/108?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+22:13:22.952 response time in milliseconds: 739,59
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b7b590ddad80d-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 01:13:22 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d180b3176d6fe2fe6eeffd262e128122e1587518002; expires=Fri, 22-May-20 01:13:22 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 41
+1 < cf-request-id: 02410b6ba00000d80d47359200000001
+{
+  "hash": "0000000042afd69ddd5c5e2e9f58f65e88bde9a53f9f8f69a6e5ca93b07a24cf",
+  "height": 108,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 216,
+  "ver": 1,
+  "time": "2009-01-11T09:47:02Z",
+  "received_time": "2009-01-11T09:47:02Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 1071487492,
+  "n_tx": 1,
+  "prev_block": "000000007e16b0176d894bebf52f6ceb5dd8553831e579b50726779633a1f2eb",
+  "mrkl_root": "202b784e7fcbb28b28906a80d0b65a97cea04db8e34d26596efa55f8806a9402",
+  "txids": [],
+  "depth": 626985,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/000000007e16b0176d894bebf52f6ceb5dd8553831e579b50726779633a1f2eb",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
+22:13:22.972 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:13:22.977 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/109?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+22:13:23.254 response time in milliseconds: 275,36
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b7b5dce30d2c8-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 01:13:23 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dacdb6633d9487cedf174d41ebaf7a1fb1587518002; expires=Fri, 22-May-20 01:13:22 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 36
+1 < cf-request-id: 02410b6e9e0000d2c81d96e200000001
+{
+  "hash": "000000003f5dccc4e0bdac7081755b9d9ee17e7737316202b900d1c567c5abae",
+  "height": 109,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 216,
+  "ver": 1,
+  "time": "2009-01-11T09:56:14Z",
+  "received_time": "2009-01-11T09:56:14Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 1311612469,
+  "n_tx": 1,
+  "prev_block": "0000000042afd69ddd5c5e2e9f58f65e88bde9a53f9f8f69a6e5ca93b07a24cf",
+  "mrkl_root": "a3007f3f43250476e47d2326dff86155f219294467da4e9e66a168abfab4b230",
+  "txids": [],
+  "depth": 626984,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/0000000042afd69ddd5c5e2e9f58f65e88bde9a53f9f8f69a6e5ca93b07a24cf",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
+22:13:23.275 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:13:23.281 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/110?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+22:13:24.046 response time in milliseconds: 762,71
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b7b5fbc3cf7de-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 01:13:23 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=da9a0cb61fd2acbad30cee3a5d22ad9ad1587518003; expires=Fri, 22-May-20 01:13:23 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 34
+1 < cf-request-id: 02410b6fd40000f7deb8b90200000001
+{
+  "hash": "00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b",
+  "height": 110,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 216,
+  "ver": 1,
+  "time": "2009-01-11T10:12:19Z",
+  "received_time": "2009-01-11T10:12:19Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 2177414145,
+  "n_tx": 1,
+  "prev_block": "000000003f5dccc4e0bdac7081755b9d9ee17e7737316202b900d1c567c5abae",
+  "mrkl_root": "abde5e83fc1973fd042c56c8cb41b6c739f3e50678d1fa2f99f0a409e4aa80c7",
+  "txids": [],
+  "depth": 626983,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/000000003f5dccc4e0bdac7081755b9d9ee17e7737316202b900d1c567c5abae",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
+
+21:36:10.258 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:36:10.264 request:
+1 > GET https://api.blockcypher.com/v1/btc/main/blocks/111?txstart=1&limit=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.blockcypher.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/12.0.1)
+
+21:36:11.215 response time in milliseconds: 948,86
+1 < 200
+1 < Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 587b44dc1de1f7a2-EZE
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 22 Apr 2020 00:36:10 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc431e473e9895e6407cc1eceeae26db41587515770; expires=Fri, 22-May-20 00:36:10 GMT; path=/; domain=.blockcypher.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Ratelimit-Remaining: 97
+1 < cf-request-id: 0240e95d8f0000f7a23539f200000001
+{
+  "hash": "000000004d6a6dd8b882deec7b54421949dddd2c166bd51ee7f62a52091a6c35",
+  "height": 111,
+  "chain": "BTC.main",
+  "total": 0,
+  "fees": 0,
+  "size": 216,
+  "ver": 1,
+  "time": "2009-01-11T10:27:53Z",
+  "received_time": "2009-01-11T10:27:53Z",
+  "coinbase_addr": "",
+  "relayed_by": "",
+  "bits": 486604799,
+  "nonce": 4076340484,
+  "n_tx": 1,
+  "prev_block": "00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b",
+  "mrkl_root": "e7a3e246c6f2d582b089d7d6c2f925e8aae46ef0c0ce97d3dd3afe3016a44e97",
+  "txids": [],
+  "depth": 626977,
+  "prev_block_url": "https://api.blockcypher.com/v1/btc/main/blocks/00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b",
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}
+
